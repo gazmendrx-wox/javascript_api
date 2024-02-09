@@ -57,7 +57,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     async function getCurrentTemperature() {
         const lat = 42.659103;
         const lon = 21.161812;
-        const apiKey = 'ea119c8f489d0443ba2742c6700b1f05'; 
+        const apiKey = 'insert_your_api_key_here'; 
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}`);
         const weatherData = await response.json();
 
